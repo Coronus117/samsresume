@@ -132,3 +132,51 @@ export const achievements = [
       "Fallen Earth, Fallen Earth Blood Sports, People Eater, Goodnight Butcher",
   },
 ];
+
+export const skills = [
+  {
+    title: "Web Development",
+    skills: [
+      "Front-End",
+      "Back-End",
+      "Full Stack",
+      "React",
+      "NodeJS",
+      "NextJS",
+      "JSON",
+      "HTML",
+      "CSS",
+      "Tailwind",
+      "MaterialUI",
+      "a11y",
+      "i13n",
+    ],
+  },
+  {
+    title: "Languages",
+    skills: ["Javascript", "Typescript", "Python", "C#", "C++", "C"],
+  },
+  {
+    title: "Tools",
+    skills: [
+      "MongoDB",
+      "SQL",
+      "GitHub",
+      "GitLab",
+      "Redhat OpenShift",
+      "Rest API",
+      "FastAPI",
+      "Rally",
+      "Jira",
+      "Confluence",
+      "VS Code",
+      "Figma",
+      "Agile",
+      "Docker",
+    ],
+  },
+  {
+    title: "Operating Systems",
+    skills: ["Linux", "Windows", "iOS"],
+  },
+];
