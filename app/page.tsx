@@ -12,10 +12,10 @@ export default function Home() {
         <Header />
         <div className="grid grid-cols-4">
           <div className="col-span-3">
-            <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase">
+            <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase mb-2">
               Summary
             </div>
-            <div className="pl-2 text-sm">
+            <div className="pl-2 text-base mb-4">
               AWS Certified Solutions Architect Associate with 12 years of
               transferable experience in Web Development, Video Game
               Development, and Technical Support sectors. Adept in bringing
@@ -26,7 +26,7 @@ export default function Home() {
               tools and procedures. Effectively self-managed during independent
               projects and collaborated as part of a productive team.
             </div>
-            <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase">
+            <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase mb-2">
               Experiences
             </div>
             <div className="pl-2">
@@ -34,7 +34,7 @@ export default function Home() {
                 <Experience key={index} experience={exp} />
               ))}
             </div>
-            <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase">
+            <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase mb-2">
               Certifications
             </div>
             <div className="pl-2">
@@ -42,8 +42,17 @@ export default function Home() {
                 <Certification key={index} certification={cert} />
               ))}
             </div>
-            <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase">
+            <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase mb-2">
               Education
+            </div>
+            <div className="pl-2 flex flex-col">
+              <div className="font-semibold text-lg">
+                Wake Technical Community College
+              </div>
+              <div className="font-semibold text-lg pl-4">
+                Associates Degree – Simulation and Game Development
+              </div>
+              <div className="italic pl-4">2015</div>
             </div>
           </div>
 

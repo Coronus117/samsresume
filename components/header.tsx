@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="grid grid-cols-3 text-center">
+    <div className="grid grid-cols-3 text-center mb-2">
       <div className="col-span-3 font-bold text-4xl uppercase">
         Samuel Kushner
       </div>
