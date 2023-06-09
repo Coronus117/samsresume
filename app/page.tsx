@@ -1,7 +1,9 @@
 import "tailwindcss/tailwind.css";
 import { experiences } from "@/data/experiences";
-import Header from "@/components/header/header";
+import { certifications } from "@/data/certifications";
+import Header from "@/components/header";
 import Experience from "@/components/experience";
+import Certification from "@/components/certification";
 
 export default function Home() {
   return (
@@ -34,6 +36,11 @@ export default function Home() {
             </div>
             <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase">
               Certifications
+            </div>
+            <div className="pl-2">
+              {certifications.map((cert, index) => (
+                <Certification key={index} certification={cert} />
+              ))}
             </div>
             <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase">
               Education
