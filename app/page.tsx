@@ -8,10 +8,10 @@ import Certification from "@/components/certification";
 export default function Home() {
   return (
     <div className="flex">
-      <div className="container mx-auto mb-32">
+      <div className="container mx-2 md:mx-auto mb-32 mt-4">
         <Header />
-        <div className="grid grid-cols-4">
-          <div className="col-span-3">
+        <div className="md:grid md:grid-cols-4">
+          <div className="col-span-3 flex flex-col">
             <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase mb-2 mt-2">
               Summary
             </div>
@@ -25,6 +25,9 @@ export default function Home() {
               languages. Experienced with the latest cutting-edge development
               tools and procedures. Effectively self-managed during independent
               projects and collaborated as part of a productive team.
+            </div>
+            <div className="md:hidden mb-6">
+              <Sidebar />
             </div>
             <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase mb-2">
               Experiences
@@ -56,7 +59,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="">
+          <div className="hidden md:block">
             <Sidebar />
           </div>
         </div>

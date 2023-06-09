@@ -2,11 +2,11 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="grid grid-cols-3 text-center mb-2">
+    <div className="flex flex-col md:grid md:grid-cols-3 text-center mb-2">
       <div className="col-span-3 font-bold text-4xl uppercase">
         Samuel Kushner
       </div>
-      <div className="col-span-3 font-light text-2xl uppercase">
+      <div className="col-span-3 font-light text-2xl uppercase md:mb-0 mb-4">
         Software Engineer
       </div>
       <div className="flex flex-row justify-center space-x-1">

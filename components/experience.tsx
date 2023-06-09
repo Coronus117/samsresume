@@ -14,9 +14,9 @@ export default function Experience({ experience }: UserProps) {
   const { company, date, title, summary, bulletPoints } = experience;
   return (
     <div className="mb-4">
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-col md:flex-row justify-between">
         <div className="font-semibold text-xl">{company}</div>
-        <div className="font-semibold">{date}</div>
+        <div className="font-semibold text-sm md:text-base">{date}</div>
       </div>
       <div className="pl-4 font-semibold italic text-xl text-yellow-600">
         {title}

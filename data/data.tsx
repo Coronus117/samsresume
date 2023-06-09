@@ -58,7 +58,7 @@ export const experiences = [
   {
     company: "Perfect Square Studios",
     date: "08/2015 – 07/2019",
-    title: "Owner / Principal Software Engineer",
+    title: "Owner, Principal Software Engineer",
     summary:
       "Founded an indie game studio and operated in capacity of CEO and Principal Software Engineer.",
     bulletPoints: [
