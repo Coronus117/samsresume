@@ -1,7 +1,7 @@
 import "tailwindcss/tailwind.css";
-import { experiences } from "@/data/experiences";
-import { certifications } from "@/data/certifications";
+import { experiences, certifications } from "@/data/data";
 import Header from "@/components/header";
+import Sidebar from "@/components/sidebar";
 import Experience from "@/components/experience";
 import Certification from "@/components/certification";
 
@@ -57,8 +57,7 @@ export default function Home() {
           </div>
 
           <div className="">
-            <div>Achievements</div>
-            <div>Skills</div>
+            <Sidebar />
           </div>
         </div>
       </div>
