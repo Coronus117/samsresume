@@ -1,16 +1,11 @@
 import "tailwindcss/tailwind.css";
+import Header from "@/components/header/header";
 
 export default function Home() {
   return (
     <div className="flex">
       <div className="container mx-auto mb-32">
-        <div className="grid grid-cols-3 text-center">
-          <div className="col-span-3">Samuel Kushner</div>
-          <div className="col-span-3">Software Engineer</div>
-          <div className="">Portfolio: SamsCloudKingdom.com</div>
-          <div className="">SamKushner919@gmail.com</div>
-          <div className="">LinkedIn.com/in/SamuelKushner</div>
-        </div>
+        <Header />
         <div className="grid grid-cols-2">
           <div>
             <div className="">Summary</div>
