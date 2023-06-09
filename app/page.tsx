@@ -12,7 +12,7 @@ export default function Home() {
         <Header />
         <div className="grid grid-cols-4">
           <div className="col-span-3">
-            <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase mb-2">
+            <div className="border-b-2 border-black font-bold pl-2 text-xl uppercase mb-2 mt-2">
               Summary
             </div>
             <div className="pl-2 text-base mb-4">
