@@ -1,95 +1,41 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import "tailwindcss/tailwind.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className="flex">
+      <div className="container mx-auto mb-32">
+        <div className="grid grid-cols-3 text-center">
+          <div className="col-span-3">Samuel Kushner</div>
+          <div className="col-span-3">Software Engineer</div>
+          <div className="">Portfolio: SamsCloudKingdom.com</div>
+          <div className="">SamKushner919@gmail.com</div>
+          <div className="">LinkedIn.com/in/SamuelKushner</div>
+        </div>
+        <div className="grid grid-cols-2">
+          <div>
+            <div className="">Summary</div>
+            <div className="">
+              AWS Certified Solutions Architect Associate with 12 years of
+              transferable experience in Web Development, Video Game
+              Development, and Technical Support sectors. Adept in bringing
+              forth expertise in design, development, installation, testing and
+              maintenance of software systems. Equipped with diverse and
+              promising skill-sets including various platforms and programming
+              languages. Experienced with the latest cutting-edge development
+              tools and procedures. Effectively self-managed during independent
+              projects and collaborated as part of a productive team.
+            </div>
+            <div className="">Experiences</div>
+            <div className="">Certifications</div>
+            <div className="">Education</div>
+          </div>
+
+          <div className="">
+            <div>Achievements</div>
+            <div>Skills</div>
+          </div>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+    </div>
+  );
 }
